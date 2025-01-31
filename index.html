@@ -56,8 +56,8 @@ https://templatemo.com/tm-528-elegance
                                     <li data-menuanchor="slide01" class="active"><a href="#slide01">Inicio</a></li>
                                     <li data-menuanchor="slide02"><a href="#slide02">Equipo</a></li>
                                     <li data-menuanchor="slide03"><a href="#slide03">Funciones</a></li>
-                                    <li data-menuanchor="slide05"><a href="#slide04">Objetivos</a></li>
-                                    <li data-menuanchor="slide07"><a href="#slide05">Contáctanos</a></li>
+                                    <li data-menuanchor="slide04"><a href="#slide04">Objetivos</a></li>
+                                    <li data-menuanchor="slide05"><a href="#slide05">Contáctanos</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -98,31 +98,31 @@ https://templatemo.com/tm-528-elegance
                             <div class="services-section">
                                 <div class="services-list owl-carousel">
                                     <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span>
+                                        <div class="service-box text-center">
+                                            <img src="images/per1.jpeg" alt="Mikaela Jácome" class="team-img">
                                             <h3>Gerente de Desarrollo Tecnológico</h3>
                                             <p>Mikaela Jácome</p>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-cloud" aria-hidden="true"></i></span>
+                                        <div class="service-box text-center">
+                                            <img src="images/per2.jpeg" alt="Marina Mantilla" class="team-img">
                                             <h3>Especialista en educación financiera y capacitación</h3>
-                                            <p>Marina Mantilla </p>
+                                            <p>Marina Mantilla</p>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
-                                            <h3>gerente en talento humano y creadora de contenido en páginas y marketing</h3>
+                                        <div class="service-box text-center">
+                                            <img src="images/per3.jpeg" alt="Carolina Benavides" class="team-img">
+                                            <h3>Gerente en talento humano y creadora de contenido</h3>
                                             <p>Carolina Benavides</p>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                                        <div class="service-box text-center">
+                                            <img src="images/per4.jpeg" alt="Alejandra Ati" class="team-img">
                                             <h3>Investigadora y Analista de datos</h3>
-                                            <p>Alejandra Ati </p>
+                                            <p>Alejandra Ati</p>
                                         </div>
                                     </div>
                                 </div>
@@ -131,7 +131,37 @@ https://templatemo.com/tm-528-elegance
                     </div>
                 </div>
             </div>
-
+            
+            <style>
+                /* Ajustar tamaño del carrusel */
+                .services-list {
+                    max-width: 1100px; /* Reducimos el ancho del carrusel */
+                    margin: 0 auto; /* Centramos el carrusel */
+                }
+            
+                /* Reducir la altura de las tarjetas */
+                .service-box {
+                    min-height: 180px; /* Se redujo la altura mínima */
+                    padding: 15px; /* Se ajustó el padding para que no se vea vacío */
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center; /* Centrar el contenido verticalmente */
+                    align-items: center; /* Centrar el contenido horizontalmente */
+                    text-align: center; /* Asegurar que el texto esté alineado */
+                }
+            
+                /* Reducir el tamaño de las imágenes */
+                .team-img {
+                    width: 25px; /* Hacemos la imagen más pequeña */
+                    height: 200px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    margin-bottom: 30px;
+                    border: 3px solid #4CAF50; /* Borde verde */
+                }
+            </style>
+            
+            
 
             <div class="section animated-row" data-section="slide03">
                 <div class="section-inner">
@@ -196,33 +226,35 @@ https://templatemo.com/tm-528-elegance
                     <div class="row justify-content-center">
                         <div class="col-md-8 wide-col-laptop">
                             <div class="title-block animate" data-animate="fadeInUp">
-                               <br> <h2>Nuestro Compromiso</h2>
+                                <br> <h2>Nuestro Compromiso</h2>
                             </div>
                             <div class="col-md-8 offset-md-2">
-                                <div class="testimonials-section">
+                                <div class="testimonials-section" style="max-width: 600px; margin: auto;">
                                     <div class="testimonials-slider owl-carousel">
                                         <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item" style="display: flex; align-items: center; margin-bottom: 30px;">
-                                                <div class="client-row" style="margin-right: 20px;">
-                                                    <img src="images/ima_3.jpeg" class="rounded-circle" alt="profile 1" style="width: 800px; height: 150px; object-fit: cover;">
+                                            <div class="testimonial-item" style="display: flex; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
+                                                <div class="client-row" style="margin-right: 15px; flex: 1;">
+                                                    <img src="images/ima_3.jpeg" class="rounded-circle" alt="profile 1" 
+                                                         style="max-width: 250px; height: auto; object-fit: cover;">
                                                 </div>
-                                                <div class="testimonial-content">
+                                                <div class="testimonial-content" style="flex: 2;">
                                                     <h4>VISIÓN</h4>
-                                                    <p>"Ser una herramienta líder en la transformación del sector agropecuario ecuatoriano, empoderando a pequeños y medianos productores con tecnología innovadora para optimizar sus procesos, mejorar su calidad de vida y contribuir al desarrollo sostenible, económico y social del país."</p>
+                                                    <p style="font-size: 14px;">"Ser una herramienta líder en la transformación del sector agropecuario ecuatoriano, empoderando a pequeños y medianos productores con tecnología innovadora para optimizar sus procesos, mejorar su calidad de vida y contribuir al desarrollo sostenible, económico y social del país."</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item" style="display: flex; align-items: center; margin-bottom: 30px;">
-                                                <div class="client-row" style="margin-right: 20px;">
-                                                    <img src="images/ima_4.jpeg" class="rounded-circle" alt="profile 2" style="width: 900px; height: 150px; object-fit: cover;">
+                                            <div class="testimonial-item" style="display: flex; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
+                                                <div class="client-row" style="margin-right: 15px; flex: 1;">
+                                                    <img src="images/ima_4.jpeg" class="rounded-circle" alt="profile 2" 
+                                                         style="max-width: 250px; height: auto; object-fit: cover;">
                                                 </div>
-                                                <div class="testimonial-content">
+                                                <div class="testimonial-content" style="flex: 2;">
                                                     <h4>MISIÓN</h4>
-                                                    <p>"Fomentar el crecimiento y la sostenibilidad del sector agropecuario en Ecuador mediante la implementación de 'AgroGood', una plataforma digital que conecta a los productores con herramientas tecnológicas avanzadas, promueve la venta directa, optimiza los recursos naturales y fortalece la gestión financiera y productiva, respetando el medio ambiente y las necesidades de los agricultores."</p>
+                                                    <p style="font-size: 14px;">"Fomentar el crecimiento y la sostenibilidad del sector agropecuario en Ecuador mediante la implementación de 'AgroGood', una plataforma digital que conecta a los productores con herramientas tecnológicas avanzadas, promueve la venta directa, optimiza los recursos naturales y fortalece la gestión financiera y productiva, respetando el medio ambiente y las necesidades de los agricultores."</p>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>  
                                     </div>
                                 </div>
                             </div>
@@ -231,21 +263,23 @@ https://templatemo.com/tm-528-elegance
                 </div>
             </div>
             
+            
+            
 
             <div class="section animated-row" data-section="slide05">
                 <div class="section-inner">
                     <div class="row justify-content-center">
                         <div class="col-md-7 wide-col-laptop">
                             <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Contact</span>
-                                <h2>Get In Touch!</h2>
+                                <span>Contactos</span>
+                                <h2>Encuentranos!</h2>
                             </div>
                             <div class="contact-section">
                                 <div class="row">
                                     <div class="col-md-6 animate" data-animate="fadeInUp">
                                         <div class="contact-box">
                                             <div class="contact-row">
-                                                <i class="fa fa-map-marker"></i> 123 New Street Here, Wonderful City 10220
+                                                <i class="fa fa-map-marker"></i> 1234 New Street Here, Wonderful City 10220
                                             </div>
                                             <div class="contact-row">
                                                 <i class="fa fa-phone"></i> 090 080 0210
@@ -274,18 +308,29 @@ https://templatemo.com/tm-528-elegance
                                             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                                         }).addTo(map);
                                     
-                                        // Añadir marcador en las coordenadas proporcionadas
-                                        L.marker([-0.108220, -78.470236]).addTo(map)
+                                        // Crear un nuevo ícono personalizado
+                                        var customIcon = L.icon({
+                                            iconUrl: 'images/logo.png', // Ruta de tu imagen
+                                            iconSize: [70, 70], // Tamaño del ícono
+                                            iconAnchor: [20, 62], // Puntos de anclaje para el ícono (donde se coloca el marcador)
+                                            popupAnchor: [0, -32] // Ajuste del popup en relación con el ícono
+                                        });
+                                    
+                                        // Añadir marcador con el ícono personalizado
+                                        L.marker([-0.108220, -78.470236], {icon: customIcon}).addTo(map)
                                             .bindPopup('Empresa AgroGood')
                                             .openPopup();
-                                    </script>                                    
-                                    
+                                    </script>
+                                                                      
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
         </div>
 
         <div id="social-icons">
